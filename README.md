@@ -6,4 +6,4 @@ A big thanks to the developers of the external Python libraries used: NLTK, PIL,
 
 The example in the repository is of Fyodor Dostoevsky's novel Crime and Punishment generated over a mask image of a hatchet.
 Thanks to Project Gutenberg for hosting the novel. 
-![Hatchet](https://github.com/AaronHenry/HTML-To-WordCloud/CnPHatchet.png)
+![Hatchet](https://github.com/AaronHenry/HTML-To-WordCloud/blob/master/CnPHatchet.png)
