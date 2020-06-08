@@ -16,5 +16,5 @@ The example in the repository is of Fyodor Dostoevsky's novel Crime and Punishme
 Thanks to Project Gutenberg for hosting the novel. 
 ![Hatchet](https://github.com/AaronHenry/HTML-To-WordCloud/blob/master/CnPHatchet.png)
 ![Plot](https://github.com/AaronHenry/HTML-To-WordCloud/blob/master/CnPPlot.png)
-![Axe](https://github.com/AaronHenry/HTML-To-WordCloud/blob/master/Axe.jpg)
+![Axe](https://github.com/AaronHenry/HTML-To-WordCloud/blob/master/axe.jpg)
 
