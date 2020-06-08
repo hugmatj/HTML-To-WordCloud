@@ -1,4 +1,4 @@
-# HTLM-To-WordCloud
+# HTML-To-WordCloud
 This program scrapes text off of any HTML webpage or local file, processes the content, and generates a wordcloud over a mask of an existing image.
 
 
