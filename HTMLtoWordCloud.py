@@ -33,6 +33,8 @@ from nltk.corpus import stopwords
 sr= stopwords.words('english')
 sr.append('like')
 sr.append('said')
+sr.append('would')
+sr.append('could')
 clean_tokens = tokens[:]
 for token in tokens:
     if token in sr or token not in words:
@@ -54,12 +56,12 @@ char_mask = np.array(Image.open("C:/Users/[User]/[local directory]/axe.jpg"))
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-wc = WordCloud(max_words=150, margin=1, background_color='black',
-               scale=1, relative_scaling = 0.25, color_func=lambda *args, **kwargs: (255,255,255), mask=char_mask, width=400, height=400,
+wc = WordCloud(max_words=125, margin=1, background_color='black',
+               color_func=lambda *args, **kwargs: (255,255,255), mask=char_mask, width=800, height=800,
                random_state=1).generate(' '.join(reduced_tokens))
 
 
-plt.figure(figsize=(20,10))
+plt.figure(dpi=300)
 plt.imshow(wc)
 plt.axis("off")
 plt.show()
