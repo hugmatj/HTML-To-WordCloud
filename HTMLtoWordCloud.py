@@ -46,8 +46,9 @@ freq = nltk.FreqDist(reduced_tokens)
 
 freq.plot(30, cumulative=False)
 
-""" shape image for the wordcloud mask """
-char_mask = np.array(Image.open("C:/Users/aaron/.spyder-py3/axe.jpg"))    
+""" image for the wordcloud shape. Use an image with a solid black shape and a solid white background. see axe.jpg for an example """
+""" MAKE SURE TO CHANGE THE FOLLOWING LINE TO MATCH YOUR LOCAL ENVIRONMENT """
+char_mask = np.array(Image.open("C:/Users/[User]/[local directory]/axe.jpg"))    
 ##image_colors = ImageColorGenerator(char_mask)
 
 from wordcloud import WordCloud
